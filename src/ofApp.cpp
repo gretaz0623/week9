@@ -4,7 +4,7 @@ float* fftSmoothed;
 ofSoundPlayer sound;
 ofFbo fbo;
 const int numBands = 512;
-//float spectrum[numBands];
+
 
 void ofApp::setup() {
     fbo.allocate(ofGetWidth(), ofGetHeight(), GL_RGBA32F);
